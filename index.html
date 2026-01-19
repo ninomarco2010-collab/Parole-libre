@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parole Libre — Entraide anonyme</title>
+  <meta name="description" content="Parole Libre est un espace d’entraide anonyme pour poser des questions personnelles, trouver des conseils de bien-être et être orienté vers des ressources fiables." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-100 text-emerald-700 font-bold">PL</span>
+        <span class="font-semibold text-lg">Parole Libre</span>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#accueil" class="hover:text-emerald-700">Accueil</a>
+        <a href="#conseils" class="hover:text-emerald-700">Conseils</a>
+        <a href="#question" class="hover:text-emerald-700">Poser une question</a>
+        <a href="#aide" class="hover:text-emerald-700">Besoin d’aide</a>
+        <a href="#projet" class="hover:text-emerald-700">Le projet</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="accueil" class="bg-gradient-to-b from-emerald-50 to-slate-50">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold leading-tight">Un espace anonyme pour parler, demander et s’orienter.</h1>
+        <p class="mt-4 text-slate-600">Ici, tu peux poser des questions personnelles que tu n’oses pas poser ailleurs, trouver des conseils de bien‑être et être orienté vers des ressources fiables. Sans jugement. Sans inscription.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#question" class="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-5 py-3 text-white font-medium hover:bg-emerald-700">Poser une question</a>
+          <a href="#conseils" class="inline-flex items-center justify-center rounded-xl border border-emerald-600 px-5 py-3 text-emerald-700 font-medium hover:bg-emerald-50">Voir les conseils</a>
+        </div>
+        <p class="mt-4 text-xs text-slate-500">⚠️ Parole Libre ne remplace pas un professionnel de santé. En cas d’urgence, consulte la section « Besoin d’aide ».</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <ul class="space-y-4 text-sm">
+          <li class="flex gap-3"><span class="text-emerald-600">✓</span> Anonymat total (aucune donnée personnelle)</li>
+          <li class="flex gap-3"><span class="text-emerald-600">✓</span> Conseils clairs et responsables</li>
+          <li class="flex gap-3"><span class="text-emerald-600">✓</span> Orientation vers des ressources officielles</li>
+          <li class="flex gap-3"><span class="text-emerald-600">✓</span> Projet citoyen porté par des lycéens</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conseils -->
+  <section id="conseils" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold">Conseils par thème</h2>
+    <p class="mt-2 text-slate-600">Des repères simples pour aller mieux au quotidien. Pour les situations sensibles, nous orientons vers des professionnels.</p>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Bien‑être & stress</h3>
+        <p class="mt-2 text-sm text-slate-600">Respiration, organisation, sommeil, pression scolaire.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Techniques simples de respiration</li>
+          <li>Routines de sommeil</li>
+          <li>Gérer la charge mentale</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">École & orientation</h3>
+        <p class="mt-2 text-sm text-slate-600">Motivation, méthodes de travail, choix d’orientation.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Planifier sans s’épuiser</li>
+          <li>Demander de l’aide efficacement</li>
+          <li>Clarifier ses options</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Relations & amitiés</h3>
+        <p class="mt-2 text-sm text-slate-600">Communication, conflits, limites.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Dire non sans culpabiliser</li>
+          <li>Gérer un conflit calmement</li>
+          <li>Entretenir des relations saines</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Réseaux sociaux</h3>
+        <p class="mt-2 text-sm text-slate-600">Comparaison, temps d’écran, pression.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Limiter l’impact négatif</li>
+          <li>Paramétrer sa confidentialité</li>
+          <li>Garder un regard critique</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Confiance en soi</h3>
+        <p class="mt-2 text-sm text-slate-600">Estime personnelle, prise de parole.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Objectifs atteignables</li>
+          <li>Auto‑encouragement</li>
+          <li>Progression pas à pas</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Solitude</h3>
+        <p class="mt-2 text-sm text-slate-600">Créer du lien, demander du soutien.</p>
+        <ul class="mt-3 list-disc list-inside text-sm">
+          <li>Premiers pas pour s’ouvrir</li>
+          <li>Activités collectives</li>
+          <li>Ressources locales</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Question -->
+  <section id="question" class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-2xl font-bold">Poser une question (anonyme)</h2>
+      <p class="mt-2 text-slate-600">Aucune inscription. Aucune donnée personnelle. Les réponses sont relues et publiées de façon anonyme (FAQ).</p>
+      <form class="mt-6 grid gap-4 max-w-2xl" onsubmit="event.preventDefault(); handleSubmit();">
+        <label class="text-sm">Thème
+          <select class="mt-1 w-full rounded-xl border p-3" required>
+            <option>Bien‑être</option>
+            <option>École / orientation</option>
+            <option>Relations</option>
+            <option>Réseaux sociaux</option>
+            <option>Autre</option>
+          </select>
+        </label>
+        <label class="text-sm">Ta question
+          <textarea class="mt-1 w-full rounded-xl border p-3" rows="5" placeholder="Écris ici, en restant anonyme" required></textarea>
+        </label>
+        <button class="mt-2 inline-flex items-center justify-center rounded-xl bg-emerald-600 px-5 py-3 text-white font-medium hover:bg-emerald-700">Envoyer</button>
+        <p class="text-xs text-slate-500">⚠️ Les situations d’urgence ne sont pas traitées ici. Consulte la section « Besoin d’aide ».</p>
+      </form>
+      <div id="confirmation" class="hidden mt-4 rounded-xl bg-emerald-50 p-4 text-emerald-800 text-sm">Merci. Ta question a bien été prise en compte.</div>
+    </div>
+  </section>
+
+  <!-- Aide -->
+  <section id="aide" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold">Besoin d’aide maintenant</h2>
+    <p class="mt-2 text-slate-600">Si tu te sens en détresse ou en danger, parle à un adulte de confiance et contacte une ressource d’aide.</p>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Ressources nationales (France)</h3>
+        <ul class="mt-3 text-sm list-disc list-inside">
+          <li>3114 — numéro national de prévention (24/7)</li>
+          <li>Enfance en danger : 119</li>
+          <li>Urgences : 112</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="font-semibold">Au sein de l’établissement</h3>
+        <ul class="mt-3 text-sm list-disc list-inside">
+          <li>Infirmier·e scolaire</li>
+          <li>CPE / professeur principal</li>
+          <li>Psychologue de l’Éducation nationale</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projet -->
+  <section id="projet" class="bg-slate-100">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-2xl font-bold">Le projet</h2>
+      <p class="mt-2 text-slate-600">Parole Libre est un projet citoyen porté par des lycéens. Il vise à informer, rassurer et orienter, dans un cadre éthique et responsable.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow p-6"><h3 class="font-semibold">Éthique</h3><p class="mt-2 text-sm">Anonymat, bienveillance, pas de conseils médicaux.</p></div>
+        <div class="bg-white rounded-2xl shadow p-6"><h3 class="font-semibold">Modération</h3><p class="mt-2 text-sm">Lecture, filtrage et orientation vers des ressources fiables.</p></div>
+        <div class="bg-white rounded-2xl shadow p-6"><h3 class="font-semibold">Impact</h3><p class="mt-2 text-sm">QR codes dans le réel pour toucher ceux qui n’osent pas demander.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-slate-600 flex flex-col md:flex-row gap-2 justify-between">
+      <p>© Parole Libre — Projet éducatif</p>
+      <p>Ce site ne remplace pas un professionnel de santé.</p>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(){
+      document.getElementById('confirmation').classList.remove('hidden');
+      window.scrollTo({ top: document.getElementById('confirmation').offsetTop - 100, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
